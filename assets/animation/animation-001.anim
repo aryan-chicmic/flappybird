@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.AnimationClip",
-    "_name": "animation",
+    "_name": "animation-001",
     "_objFlags": 0,
     "__editorExtras__": {
       "embeddedPlayerGroups": []
@@ -66,7 +66,7 @@
     "__type__": "cc.RealCurve",
     "_times": [
       0,
-      0.13333333333333333
+      0.13333334028720856
     ],
     "_values": [
       {
@@ -107,7 +107,7 @@
     "__type__": "cc.RealCurve",
     "_times": [
       0,
-      0.13333333333333333
+      0.13333334028720856
     ],
     "_values": [
       {
@@ -148,7 +148,7 @@
     "__type__": "cc.RealCurve",
     "_times": [
       0,
-      0.13333333333333333
+      0.13333334028720856
     ],
     "_values": [
       {

@@ -23,9 +23,9 @@ export class bird extends Component {
     var c = this.myImage.parent.getComponent(UITransform).height;
     var hofimage = this.myImage.getComponent(UITransform).height;
     var diff = c / 2 - hofimage / 2;
-    console.log(diff);
+    // console.log(diff);
     var pos = this.myImage.getPosition().y;
-    console.log(pos);
+    // // console.log(pos);
 
     if (diff >= pos) {
       this.myImage.setPosition(
@@ -39,9 +39,9 @@ export class bird extends Component {
     var hofimage = this.myImage.getComponent(UITransform).height;
     var c = this.myImage.parent.getComponent(UITransform).height;
     var diff = -1 * (c / 2 - hofimage / 2);
-    console.log(diff);
+    // console.log(diff);
     var pos = this.myImage.getPosition().y;
-    console.log(pos);
+    // console.log(pos);
 
     if (diff < pos) {
       // if (Math.abs(this.myImage.position.y) + hofimage / 2 < c / 2) {
